@@ -62,7 +62,7 @@ col2_content = dcc.Graph(
 app.layout = dbc.Container(
     [
         # we can manually apply bootstrap css classes such as text-primary
-        html.H1("Currency Graph", className="text-primary"),
+        html.H1("Currency Graph", className="text-primary mt-3"),
         html.Hr(),
         dbc.Row(
             [
