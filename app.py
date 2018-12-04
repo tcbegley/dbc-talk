@@ -39,9 +39,8 @@ col1_content = dbc.Card(
         ),
         dbc.CardText(
             [
-                "Included are ",
-                html.Span("cryptocurrencies", id="cryptocurrency"),
-                " and regular currencies.",
+                "Included are three different ",
+                html.Span("cryptocurrencies.", id="cryptocurrency"),
             ]
         ),
         dbc.Tooltip(
