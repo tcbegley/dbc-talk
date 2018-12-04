@@ -13,10 +13,7 @@ CONFIGURATION = {
     "eth": ("Ethereum", "data/eth.csv")
 }
 
-# we get bootstrap css from the CDN
-BS = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-
-app = dash.Dash(external_stylesheets=[BS])
+app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = "Currency Graph"
 
 # content for first column
